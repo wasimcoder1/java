@@ -1,0 +1,12 @@
+//Java Data Types -> As explained in the previous chapter, a variable in Java must be a specified data type:
+
+package Cdatatype;
+
+public class datatype {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int sum = a+b;
+        System.out.println(sum);
+    }
+}
