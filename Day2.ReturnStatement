@@ -1,0 +1,39 @@
+// 1. Sends a value back from a function.
+// 2. Example :- Ek glass panni laao.
+// 3. What can Be Retured : Value, variable, calculation, etc.
+// 4. Return ends the function immediately.
+// 5. Function calls make code jump around.
+// 6. Prefer returning value over using global variables.
+
+
+package array;
+
+import java.util.Scanner;
+
+public class Day2ReturnStatement {
+
+	public static void main(String[] args) {
+		
+		
+		greet();
+		int first = readNumber();
+		int second = readNumber(); 
+		
+		int sum = first + second;
+		System.out.println("Sum of the number is : "+sum);
+	}
+	
+	public static int readNumber() {
+		Scanner input = new Scanner(System.in);
+		
+        System.out.println("Please enter the number: ");
+		int number = input.nextInt();
+		return number;
+		
+	}
+	
+	public static void greet() {
+		System.out.println("Walcome to Calculator \n");
+	}
+
+}
