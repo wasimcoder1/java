@@ -1,0 +1,29 @@
+// 1. Input value that a function takes.
+// 2. parameters put value into function, while return gets value out.
+// 3. Example :- Ek packet dahi laao.
+// 4. naming Convention : Same as variable names.
+// 5. parameter vs Argument.
+// 6. Example :- System.out.print,Scanner.nextInt(), are function we have already
+// 7. Multiple Parameters : Function can take more than one.
+// 8. Default value : Can set a default value for a parameter.
+
+package array;
+
+public class Day3ArgumentParameter {
+
+	public static void main(String[] args) {
+		System.out.println(sumOfTwoNumber(4, 6));
+		System.out.println(sumOfTwoNumber(-4, 6));
+		System.out.println(sumOfTwoNumber(2, 16));
+		System.out.println(sumOfTwoNumber(-6, 6));
+		
+	}
+	
+	public static int sumOfTwoNumber(int first, int second) {
+		System.out.println("First Number received: "+first);
+		System.out.println("Second Number received: "+second);
+		int sum = first + second;
+		return sum;
+	}
+
+}
