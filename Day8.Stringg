@@ -1,0 +1,155 @@
+package javaclass;
+
+//public class Day9Stringg {
+
+//
+//	public static void main(String[] args) {
+//		String s1 = "Java";
+//		String s2 = "Ja";
+//		
+//		if(s1 == s2) {
+//			System.out.println("Ref are equle");
+//		}
+//		else {
+//			System.out.println("Ref are not equle");
+//		}
+//	
+//	}
+//
+//}
+
+//Example 2-
+
+//class Day9Stringg {
+//	public static void main(String[] args) {
+//
+//		String s1 = "Java";
+//		String s2 = new String("Java");
+//
+//		if (s1 == s2) {
+//			System.out.println("Ref are equal");
+//		} else {
+//			System.out.println("Ref are not equal");
+//		}
+//		if (s1.equals(s2)) {
+//			System.out.println("Value are equal");
+//		} else {
+//			System.out.println("Value are not equal");
+//		}
+//	}
+//}
+
+// Example 3-
+
+//class Day9Stringg {
+//	public static void main(String[] args) {
+//		String s1 = "Java";
+//		String s2 = "Python";
+//		String s3 = "java" + "Python";
+//		String s4 = "Java" + "Python";
+//
+//		if (s1 == s2) {
+//			System.out.println("Ref are equal");
+//		} else {
+//			System.out.println("Ref are not equal");
+//		}
+//		if (s3.equals(s4)) {
+//			System.out.println("Value are equal");
+//		} else {
+//			System.out.println("Value are not equle");
+//		}
+//	}
+//}
+
+//Example 4-
+
+//class Day9Stringg {
+//	public static void main(String[] args) {
+//		String s1 = "java";
+//		String s2 = "Python";
+//		String s3 = s1 + s2;
+//		String s4 = s1 + s2;
+//
+//		if (s3 == s4) {
+//			System.out.println("Ref are equal");
+//		} else {
+//			System.out.println("Ref are not equal");
+//		}
+//		if (s3.equals(s4)) {
+//			System.out.println("Value are equal");
+//		} else {
+//			System.out.println("Value are not equal");
+//		}
+//	}
+//}
+
+//Example 5-
+
+//class Day9Stringg {
+//	public static void main(String[] args) {
+//		String s1 = "Java";
+//		String s2 = "Python";
+//		String s3 = s1.concat(s2);
+//		String s4 = s1.concat(s2);
+//
+//		if (s3 == s4) {
+//			System.out.println("Ref are equal");
+//		} else {
+//			System.out.println("Ref are not equal");
+//		}
+//		if (s3.equals(s4)) {
+//			System.out.println("Value are equal");
+//		} else {
+//			System.out.println("Value are not equal");
+//		}
+//	}
+//}
+
+
+
+//Example 7-
+
+//class Day9Stringg {
+//	public static void main(String[] args) {
+//		String s1 = "Wasim";
+//		String s2 = "Ansari";
+//		
+//		int res = s1.compareTo(s2);
+//		System.out.println(res);
+//		
+//		if(res == 0) {
+//			System.out.println("String are equal");
+//		}
+//		else if(res < 0){
+//			System.out.println("s1 > s2");
+//		}
+//		else {
+//			System.out.println("s1 < s2");
+//		}
+//	}
+//}
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
