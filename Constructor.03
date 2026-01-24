@@ -1,0 +1,26 @@
+package com.tap;
+
+class Students {
+	int id;
+	int age;
+	String name;
+
+	Students(int id, int age, String name) {
+		this.id = id;
+		this.age = age;
+		this.name = name;
+		System.out.println("Parametrize Constructor");
+	} 
+
+	Students() {
+		System.out.println("Default Constructor");
+	}
+
+}
+
+public class Constructor03 {
+	public static void main(String[] args) {
+		Students s1 = new Students(26861, 23, "Wasim");
+
+	}
+}
