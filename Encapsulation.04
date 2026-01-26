@@ -1,0 +1,54 @@
+package com.tap;
+
+import java.util.Scanner;
+
+class Student1 {
+	private String name;
+	private int age;
+	private int roll_no;
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public int getRoll_no() {
+		return roll_no;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public void setRoll_no(int roll_no) {
+		this.roll_no = roll_no;
+	}
+
+}
+
+public class Encapsulation04 {
+
+	public static void main(String[] args) {
+		Student1 obj = new Student1();
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter name: ");
+		obj.setName(sc.nextLine());
+		System.out.print("Enter age: ");
+		obj.setAge(sc.nextInt());
+		System.out.print("Enter roll_no: ");
+		obj.setRoll_no(sc.nextInt());
+
+		System.out.println(obj.getName());
+		System.out.println(obj.getAge());
+		System.out.println(obj.getRoll_no());
+
+	}
+
+}
