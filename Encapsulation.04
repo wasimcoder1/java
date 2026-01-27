@@ -52,3 +52,71 @@ public class Encapsulation04 {
 	}
 
 }
+
+
+import java.util.Scanner;
+
+class Product {
+    // private attributes
+    private int productId;
+    private String productName;
+    private int quantity;
+    private double price;
+
+    // setter methods
+    public void setProductId(int productId) {
+        this.productId = productId;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    // getter methods
+    public int getProductId() {
+        return productId;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        Product p = new Product();
+
+        // taking input
+        p.setProductId(sc.nextInt());
+        sc.nextLine(); // consume newline
+        p.setProductName(sc.nextLine());
+        p.setQuantity(sc.nextInt());
+        p.setPrice(sc.nextDouble());
+
+        // displaying output using getters
+        System.out.println(p.getProductId());
+        System.out.println(p.getProductName());
+        System.out.println(p.getQuantity());
+        System.out.println(p.getPrice());
+
+    }
+}
+
