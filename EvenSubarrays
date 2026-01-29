@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class EvenSubarrays {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        boolean found = false;
+
+        // Generate all even-sized subarrays
+        for (int size = 2; size <= n; size += 2) {
+            for (int i = 0; i <= n - size; i++) {
+                found = true;
+                for (int j = i; j < i + size; j++) {
+                    System.out.print(arr[j] + " ");
+                }
+                System.out.println();
+            }
+        }
+
+        if (!found) {
+            System.out.println("None");
+        }
+    }
+}
