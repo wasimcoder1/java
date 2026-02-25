@@ -1,0 +1,20 @@
+public class DataType1 {
+    public static void main(String[] args) {
+//        byte b = 125;
+//        int a = b;
+//        System.out.println(b);
+
+//        int a = 12;
+//        byte k = (byte) a;
+//        System.out.println(k);
+
+//        float a = 12.6f;
+//        int i = (int)a;
+//        System.out.println(i);
+
+        int x = 232;
+        int y = 232;
+        boolean result = x == y;
+        System.out.println(result);
+    }
+}
