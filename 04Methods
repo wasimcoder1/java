@@ -1,0 +1,38 @@
+//class Computer{
+//    public void playMusic(){
+//        System.out.println("Music Playing...");
+//    }
+//    public String getPen(int cost){
+//        if(cost >= 10)
+//            return "pen";
+//        else
+//            return "Nothing";
+//    }
+//}
+//
+//public class method {
+//    public static void main(String[] args) {
+//        Computer com = new Computer();
+//        com.playMusic();
+//        String str = com.getPen(2);
+//        System.out.println(str);
+//
+//    }
+//}
+
+
+//Method Overloading in java
+
+
+class Calculator{
+    public int add(int n1, int n2){
+        return n1 + n2;
+    }
+}
+class method{
+    public static void main(String[] args) {
+        Calculator obj = new Calculator();
+        int r1 = obj.add(12,12);
+        System.out.println(r1);
+    }
+}
