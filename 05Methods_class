@@ -1,0 +1,17 @@
+class Dog{
+    int license_Id;
+    String name;
+
+//    Access modifier
+    public void eat(){
+        System.out.println(name + " eats");
+    }
+}
+
+public class Methods_class {
+    public static void main(String[] args) {
+        Dog obj = new Dog();
+        obj.name = "Flax";
+        obj.eat();
+    }
+}
